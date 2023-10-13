@@ -9,7 +9,8 @@ export default function Navbar() {
         '/': '/education',
         '/education': '/experience',
         '/experience': '/skills',
-        '/skills': '/interests',
+        '/skills': '/projects',
+        '/projects': '/interests',
         '/interests': '/',
     };
 
@@ -81,6 +82,16 @@ export default function Navbar() {
                         <div>
                             <Link
                                 onClick={() => {
+                                    setPage('/projects');
+                                }}
+                                to='/projects'
+                            >
+                                PROJECTS
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                onClick={() => {
                                     setPage('/interests');
                                 }}
                                 to='/interests'
@@ -128,7 +139,10 @@ export default function Navbar() {
                 </label>
             </div>
 
-            <div className='container2' id='container2'>
+            <div
+                className='container2'
+                id='container2'
+            >
                 <div className='menuItems'>
                     <Link
                         to='/'
@@ -163,6 +177,15 @@ export default function Navbar() {
                         style={{ fontSize: '26px' }}
                     >
                         SKILLS
+                    </Link>
+                </div>
+                <div className='menuItems'>
+                    <Link
+                        to='/projects'
+                        onClick={() => hideMenu()}
+                        style={{ fontSize: '26px' }}
+                    >
+                        PROJECTS
                     </Link>
                 </div>
                 <div className='menuItems'>
