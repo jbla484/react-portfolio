@@ -28,7 +28,7 @@ export default function Navbar() {
                     <div className='desktopView'>
                         <div className='imageWrapper'>
                             <img
-                                src={require('../images/man.jpg')}
+                                src={require('../images/man.png')}
                                 alt='me'
                                 width={'100%'}
                                 height={'100%'}

@@ -82,6 +82,13 @@ nav {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .projectImage {
+        height: 80% !important;
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .firstName,
     .lastName {
@@ -122,12 +129,17 @@ a:hover {
     color: rgba(255, 255, 255, 0.63);
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .landingWrapper,
 .experienceWrapper {
     text-align: left;
     padding: 40px;
     width: 80vw;
     margin: auto;
+    overflow-y: scroll;
 }
 
 .imageWrapper {
@@ -481,13 +493,12 @@ h1 {
     text-align: center;
 }
 
-
 .projectContainer {
-    background-color: #bbbbbb5c;
+    /* background-color: #bbbbbb5c; */
     border-radius: 10px;
-
 }
 
 .projectImage {
     border-radius: '10px';
+    height: 400px;
 }

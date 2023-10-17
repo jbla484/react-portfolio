@@ -15,8 +15,6 @@ export default function Projects() {
                         className='projectImage'
                         src={require('../images/cryptostats.png')}
                         alt='me'
-                        width={'80%'}
-                        height={'80%'}
                         style={{}}
                     ></img>
                     <p style={{ margin: '10px auto', width: '80%' }}>
@@ -39,7 +37,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-
+                <hr></hr>
                 <div
                     className='projectContainer'
                     style={{ textAlign: 'center', marginBottom: '20px' }}
@@ -49,8 +47,6 @@ export default function Projects() {
                         className='projectImage'
                         src={require('../images/webchat.png')}
                         alt='me'
-                        width={'80%'}
-                        height={'80%'}
                         style={{}}
                     ></img>
                     <p style={{ margin: '10px auto', width: '80%' }}>
