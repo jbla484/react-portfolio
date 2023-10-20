@@ -59,7 +59,7 @@ export default function Projects() {
                     </p>
                     <div style={{ padding: '10px 0 30px 0' }}>
                         <a
-                            href='https://jamesb-webchat.netlify.app/'
+                            href='https://mern-webchat-client.onrender.com/'
                             target='_blank'
                             rel='noreferrer'
                             style={{
